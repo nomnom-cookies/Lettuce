@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California Seasonal Produce Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Produce Guide</div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li class="nav-search">
+                    <input type="text" id="search-input" placeholder="Search produce..." class="search-box">
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page-section active">
+        <div class="banner">
+            <h1>California Seasonal Produce Guide</h1>
+            <p>Discover fresh, seasonal fruits, vegetables, nuts and grains from California</p>
+        </div>
+
+        <div class="container">
+            <section class="filters">
+                <div class="filter-group">
+                    <label for="month-select">Month:</label>
+                    <select id="month-select">
+                        <option value="">All Months</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="region-select">Region:</label>
+                    <select id="region-select">
+                        <option value="">All Regions</option>
+                        <option value="san-francisco">San Francisco Bay Area</option>
+                        <option value="los-angeles">Los Angeles Area</option>
+                        <option value="san-diego">San Diego Area</option>
+                        <option value="central-valley">Central Valley</option>
+                        <option value="inland-empire">Inland Empire</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="produce-select">Produce:</label>
+                    <select id="produce-select">
+                        <option value="">All Produce</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="produce-grid" id="produce-grid">
+                <!-- Produce cards will be populated here -->
+            </section>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about-page" class="page-section">
+        <div class="banner">
+            <h1>About This Guide</h1>
+            <p>Learn more about California's agricultural bounty</p>
+        </div>
+
+        <div class="container about-content">
+            <section class="about-section">
+                <h2>About the California Seasonal Produce Guide</h2>
+                <p>This guide is designed to help you discover the freshest, most seasonally available produce grown right here in California. By choosing seasonal produce, you support local farmers, enjoy better flavor and nutrition, and make environmentally conscious choices.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Why Choose Seasonal Produce?</h2>
+                <ul>
+                    <li><strong>Better Flavor:</strong> Produce harvested at peak ripeness tastes better and is more flavorful.</li>
+                    <li><strong>More Nutrition:</strong> Seasonal produce is richer in nutrients and contains higher levels of vitamins and minerals.</li>
+                    <li><strong>Lower Cost:</strong> When produce is in season, supply is abundant, which means lower prices.</li>
+                    <li><strong>Environmental Benefits:</strong> Less transportation and storage means a smaller carbon footprint.</li>
+                    <li><strong>Support Local:</strong> You directly support California farmers and local agriculture.</li>
+                </ul>
+            </section>
+
+            <section class="about-section">
+                <h2>California's Agricultural Regions</h2>
+                <p><strong>San Francisco Bay Area:</strong> Known for diverse crops including citrus, stone fruits, and leafy greens.</p>
+                <p><strong>Los Angeles Area:</strong> Produces avocados, citrus, and subtropical fruits.</p>
+                <p><strong>San Diego Area:</strong> Specializes in avocados, berries, and various vegetables.</p>
+                <p><strong>Central Valley:</strong> The heart of California agriculture, producing vast quantities of grains, vegetables, and nuts.</p>
+                <p><strong>Inland Empire:</strong> Home to citrus, stone fruits, and various vegetables.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Storage Tips</h2>
+                <p>Each produce item in this guide includes specific storage recommendations to help you keep your fresh produce as fresh as possible. Check individual items for storage instructions tailored to that specific fruit or vegetable.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Explore the Guide</h2>
+                <p>Head to the <strong>Home</strong> page to explore California's seasonal produce. Use the filters to find what's in season right now in your region, or search for your favorite produce to discover when and where it's available!</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-image" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title"></h2>
+                    <div class="modal-section">
+                        <h3>Description</h3>
+                        <p id="modal-description"></p>
+                    </div>
+                    <div class="modal-section">
+                        <h3>In Season</h3>
+                        <p id="modal-months"></p>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Region</h3>
+                        <p id="modal-region"></p>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Recipes</h3>
+                        <ul id="modal-recipes"></ul>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Learn More</h3>
+                        <ul id="modal-links"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
