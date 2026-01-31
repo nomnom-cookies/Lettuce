@@ -252,20 +252,6 @@ const produceData = [
         ]
     },
     {
-        id: 19,
-        name: "Wheat",
-        category: "Grain",
-        image: "https://images.unsplash.com/photo-1574943320219-553eb20e72a6?w=250&h=250&fit=crop",
-        months: ["June", "July", "August"],
-        regions: ["central-valley"],
-        description: "Cereal grain with golden-brown kernels. Small, oval-shaped grains. Mild, nutty flavor when whole. Essential staple crop used for flour, bread, pasta, and cereals. Storage: Keep in cool, dry place. Whole wheat berries last up to 1 year; flour lasts 6-8 months.",
-        recipes: ["Wheat bread", "Whole wheat pasta", "Wheat berries", "Granola", "Whole grain cereals"],
-        links: [
-            { title: "Whole wheat nutrition", url: "https://www.google.com/search?q=whole+wheat+nutrition" },
-            { title: "California wheat farming", url: "https://www.google.com/search?q=california+wheat+production" }
-        ]
-    },
-    {
         id: 20,
         name: "Artichoke",
         category: "Vegetable",
@@ -476,20 +462,6 @@ const produceData = [
         ]
     },
     {
-        id: 35,
-        name: "Fennel",
-        category: "Vegetable",
-        image: "https://images.unsplash.com/photo-1585093169291-84a51947e9d8?w=250&h=250&fit=crop",
-        months: ["October", "November", "December", "January", "February"],
-        regions: ["san-francisco", "central-valley"],
-        description: "Bulbous vegetable with white to pale green base and feathery fronds on top. Mild, sweet licorice flavor. Crunchy texture when raw, tender when cooked. Bulb is about 3-4 inches in diameter. Storage: Refrigerate in plastic bag for up to 5 days. Fronds can be used as herb.",
-        recipes: ["Roasted fennel", "Fennel salad", "Braised fennel", "Fennel soup", "Fennel with fish"],
-        links: [
-            { title: "Fennel preparation", url: "https://www.google.com/search?q=how+to+cook+fennel" },
-            { title: "Fennel health benefits", url: "https://www.google.com/search?q=fennel+nutrition+benefits" }
-        ]
-    },
-    {
         id: 36,
         name: "Pomegranate",
         category: "Fruit",
@@ -501,6 +473,398 @@ const produceData = [
         links: [
             { title: "Pomegranate nutrition", url: "https://www.google.com/search?q=pomegranate+health+benefits" },
             { title: "Seeding pomegranate tips", url: "https://www.google.com/search?q=how+to+seed+pomegranate" }
+        ]
+    },
+    {
+        id: 37,
+        name: "Kiwi Fruit",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1585599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["August", "September", "October", "November", "December"],
+        regions: ["coastal-california", "central-valley"],
+        description: "Small, round fruit with fuzzy brown skin and vibrant green interior flesh dotted with tiny black seeds. Tart-sweet flavor with tropical notes. About 2-3 inches in diameter. Soft when ripe. Storage: Keep at room temperature until ripe, then refrigerate for up to 2 weeks.",
+        recipes: ["Kiwi smoothie bowls", "Kiwi fruit salad", "Kiwi jam", "Kiwi sorbet", "Kiwi cheesecake"],
+        links: [
+            { title: "Kiwi nutrition facts", url: "https://www.google.com/search?q=kiwi+fruit+nutrition" },
+            { title: "California kiwi farming", url: "https://www.google.com/search?q=california+kiwi+production" }
+        ]
+    },
+    {
+        id: 38,
+        name: "Fig",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["June", "July", "August", "September", "October"],
+        regions: ["central-valley", "inland-empire"],
+        description: "Pear-shaped fruit with tender, thin skin in purple, brown, or green colors. Sweet, soft pink interior flesh with many tiny seeds. Honey-like flavor. About 2-3 inches long. Delicate skin. Storage: Refrigerate for up to 5 days or freeze for longer storage.",
+        recipes: ["Fig jam", "Dried figs", "Fig tart", "Fig and prosciutto", "Fig salad"],
+        links: [
+            { title: "Fig nutrition benefits", url: "https://www.google.com/search?q=fig+health+benefits" },
+            { title: "California fig farming", url: "https://www.google.com/search?q=california+fig+production" }
+        ]
+    },
+    {
+        id: 39,
+        name: "Radish",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["January", "February", "March", "April", "October", "November", "December"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Small, round or elongated root vegetable with thin, smooth skin in red, pink, white, or multicolor. Crisp, peppery white interior. About 1-2 inches in diameter. Crunchy texture. Storage: Remove greens and refrigerate in plastic bag for up to 2 weeks.",
+        recipes: ["Radish salad", "Roasted radishes", "Radish chips", "Radish butter toast", "Pickled radishes"],
+        links: [
+            { title: "Radish nutrition", url: "https://www.google.com/search?q=radish+health+benefits" },
+            { title: "Growing radishes California", url: "https://www.google.com/search?q=california+radish+farming" }
+        ]
+    },
+    {
+        id: 40,
+        name: "Pumpkin",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["September", "October", "November"],
+        regions: ["central-valley"],
+        description: "Large, round winter squash with thick, ridged orange skin. Dense, orange flesh inside with central seed cavity. Sweet, slightly earthy flavor. Can weigh 2-25 lbs depending on variety. Storage: Keep at cool room temperature for 1-3 months. Excellent for storage.",
+        recipes: ["Pumpkin pie", "Pumpkin soup", "Roasted pumpkin", "Pumpkin bread", "Pumpkin puree"],
+        links: [
+            { title: "Pumpkin nutrition", url: "https://www.google.com/search?q=pumpkin+health+benefits" },
+            { title: "California pumpkin farming", url: "https://www.google.com/search?q=california+pumpkin+production" }
+        ]
+    },
+    {
+        id: 41,
+        name: "Winter Squash",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["September", "October", "November", "December"],
+        regions: ["central-valley"],
+        description: "Hard-shelled squash varieties including butternut, acorn, and delicata. Dense, sweet flesh in orange or pale yellow colors. Thick, inedible skin. Ranges 2-5 lbs. Nutty, sweet flavor. Storage: Keep at cool room temperature for 1-3 months. Excellent keeper.",
+        recipes: ["Roasted squash", "Squash soup", "Squash risotto", "Stuffed acorn squash", "Squash puree"],
+        links: [
+            { title: "Winter squash nutrition", url: "https://www.google.com/search?q=winter+squash+health+benefits" },
+            { title: "California squash farming", url: "https://www.google.com/search?q=california+winter+squash+production" }
+        ]
+    },
+    {
+        id: 42,
+        name: "Green Beans",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["May", "June", "July", "August", "September"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Long, slender green pods with edible seeds inside. Tender, crisp texture. Bright green color. About 4-6 inches long. Mild, slightly grassy flavor. Storage: Refrigerate in plastic bag for up to 5 days. Best used fresh.",
+        recipes: ["Green bean casserole", "Roasted green beans", "Sautéed green beans", "Green bean salad", "Green beans almondine"],
+        links: [
+            { title: "Green bean nutrition", url: "https://www.google.com/search?q=green+beans+health+benefits" },
+            { title: "Growing green beans California", url: "https://www.google.com/search?q=california+green+bean+farming" }
+        ]
+    },
+    {
+        id: 43,
+        name: "Corn",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["June", "July", "August", "September"],
+        regions: ["central-valley"],
+        description: "Tall stalks producing ears with yellow (or white, bi-color) kernels arranged in rows. Sweet, tender kernels. Ears about 8-10 inches long. Fresh corn has high sugar content. Storage: Refrigerate unhusked for up to 3 days. Cook soon after picking for best flavor.",
+        recipes: ["Corn on the cob", "Corn chowder", "Creamed corn", "Cornbread", "Polenta"],
+        links: [
+            { title: "Corn nutrition facts", url: "https://www.google.com/search?q=corn+nutrition+benefits" },
+            { title: "California corn farming", url: "https://www.google.com/search?q=california+corn+production" }
+        ]
+    },
+    {
+        id: 44,
+        name: "Pear",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["August", "September", "October", "November"],
+        regions: ["coastal-california", "central-valley"],
+        description: "Bell-shaped fruit with thin, smooth skin in green, brown, or yellow. Sweet, juicy white flesh with slight grittiness. About 3-4 inches long. Buttery texture when ripe. Storage: Keep at room temperature until ripe, then refrigerate for up to 1 week.",
+        recipes: ["Pear salad", "Pear tart", "Pear crisp", "Poached pears", "Pear sauce"],
+        links: [
+            { title: "Pear varieties guide", url: "https://www.google.com/search?q=pear+varieties+types" },
+            { title: "California pear farming", url: "https://www.google.com/search?q=california+pear+production" }
+        ]
+    },
+    {
+        id: 45,
+        name: "Plum",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["June", "July", "August", "September"],
+        regions: ["central-valley", "inland-empire"],
+        description: "Round to oval stone fruit with thin, smooth skin in purple, red, or yellow. Sweet, juicy yellow or red flesh with central pit. About 2-3 inches in diameter. Delicate skin. Storage: Keep at room temperature until ripe, then refrigerate for 3-5 days.",
+        recipes: ["Plum jam", "Plum crisp", "Grilled plums", "Plum sauce", "Fresh plum salad"],
+        links: [
+            { title: "Plum nutrition", url: "https://www.google.com/search?q=plum+health+benefits" },
+            { title: "California plum farming", url: "https://www.google.com/search?q=california+plum+production" }
+        ]
+    },
+    {
+        id: 46,
+        name: "Nectarine",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["June", "July", "August", "September"],
+        regions: ["central-valley", "inland-empire"],
+        description: "Smooth-skinned stone fruit resembling peaches in orange-red and yellow colors. Sweet, juicy yellow or white flesh with central pit. About 2-3 inches in diameter. Smooth, shiny skin. Storage: Keep at room temperature until ripe, then refrigerate for up to 5 days.",
+        recipes: ["Nectarine salad", "Grilled nectarines", "Nectarine pie", "Nectarine jam", "Fresh nectarines"],
+        links: [
+            { title: "Nectarine nutrition", url: "https://www.google.com/search?q=nectarine+health+benefits" },
+            { title: "California nectarine farming", url: "https://www.google.com/search?q=california+nectarine+production" }
+        ]
+    },
+    {
+        id: 47,
+        name: "Apricot",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["May", "June", "July", "August"],
+        regions: ["central-valley", "inland-empire"],
+        description: "Small stone fruit with velvety orange skin and central pit. Sweet, juicy golden-orange flesh. About 1.5-2 inches in diameter. Delicate, soft texture. Slightly tangy flavor. Storage: Keep at room temperature until ripe, then refrigerate for 3-5 days.",
+        recipes: ["Apricot jam", "Dried apricots", "Apricot tart", "Apricot cobbler", "Fresh apricot sauce"],
+        links: [
+            { title: "Apricot nutrition", url: "https://www.google.com/search?q=apricot+health+benefits" },
+            { title: "California apricot farming", url: "https://www.google.com/search?q=california+apricot+production" }
+        ]
+    },
+    {
+        id: 48,
+        name: "Cherry",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["May", "June", "July"],
+        regions: ["coastal-california", "central-valley"],
+        description: "Small, round stone fruit with thin skin in deep red to dark burgundy colors. Sweet or tart juicy red flesh with central pit. About 0.75-1 inch in diameter. Delicate, juicy texture. Storage: Refrigerate in plastic bag for up to 1 week. Handle gently.",
+        recipes: ["Fresh cherries", "Cherry pie", "Cherry jam", "Cherry sauce", "Dried cherries"],
+        links: [
+            { title: "Cherry nutrition", url: "https://www.google.com/search?q=cherry+health+benefits" },
+            { title: "California cherry farming", url: "https://www.google.com/search?q=california+cherry+production" }
+        ]
+    },
+    {
+        id: 49,
+        name: "Grapefruit",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["November", "December", "January", "February", "March"],
+        regions: ["inland-empire", "central-valley"],
+        description: "Large citrus fruit with thick, bumpy yellow or pink-blushed skin. Pale yellow, pink, or ruby red segmented flesh inside. Tart and refreshing flavor with slight bitterness. About 4-5 inches in diameter. Storage: Keep at room temperature for 2 weeks or refrigerate for up to 4 weeks.",
+        recipes: ["Grapefruit juice", "Grapefruit salad", "Broiled grapefruit", "Grapefruit cocktails", "Grapefruit sorbet"],
+        links: [
+            { title: "Grapefruit nutrition", url: "https://www.google.com/search?q=grapefruit+health+benefits" },
+            { title: "California grapefruit farming", url: "https://www.google.com/search?q=california+grapefruit+production" }
+        ]
+    },
+    {
+        id: 50,
+        name: "Lime",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["Year-round", "Peak: May-October"],
+        regions: ["central-valley", "inland-empire"],
+        description: "Small citrus fruit with thin, bumpy bright green or yellow skin. Very tart, acidic juice with few seeds. Round shape about 1-2 inches in diameter. Fragrant zest. Storage: Keep at room temperature for 2 weeks or refrigerate for up to 1 month.",
+        recipes: ["Lime juice", "Lime margarita", "Lime tart", "Lime guacamole", "Lime chicken"],
+        links: [
+            { title: "Lime health benefits", url: "https://www.google.com/search?q=lime+health+benefits" },
+            { title: "California lime farming", url: "https://www.google.com/search?q=california+lime+production" }
+        ]
+    },
+    {
+        id: 51,
+        name: "Tangerine",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["October", "November", "December", "January", "February"],
+        regions: ["central-valley", "inland-empire"],
+        description: "Small to medium citrus fruit with loose, easy-to-peel thin skin in orange color. Sweet, juicy orange segmented flesh. About 2-3 inches in diameter. Fragrant aroma. Storage: Keep at room temperature for 2 weeks or refrigerate for up to 3 weeks.",
+        recipes: ["Fresh tangerines", "Tangerine juice", "Tangerine salad", "Tangerine cake", "Mandarin orange marmalade"],
+        links: [
+            { title: "Tangerine nutrition", url: "https://www.google.com/search?q=tangerine+health+benefits" },
+            { title: "California tangerine farming", url: "https://www.google.com/search?q=california+tangerine+production" }
+        ]
+    },
+    {
+        id: 52,
+        name: "Beet",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["September", "October", "November", "December"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Round root vegetable with thin, smooth skin in deep red or golden yellow. Sweet, earthy purple or golden flesh inside. About 2-3 inches in diameter. Tender, fine-grained texture. Storage: Remove greens and refrigerate in plastic bag for up to 3 weeks.",
+        recipes: ["Roasted beets", "Beet salad", "Beet soup", "Pickled beets", "Beet juice"],
+        links: [
+            { title: "Beet nutrition benefits", url: "https://www.google.com/search?q=beet+health+benefits" },
+            { title: "Growing beets California", url: "https://www.google.com/search?q=california+beet+farming" }
+        ]
+    },
+    {
+        id: 53,
+        name: "Parsnip",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["September", "October", "November", "December"],
+        regions: ["central-valley"],
+        description: "Long, tapered root vegetable with thin, pale beige or white skin. Creamy white interior flesh with sweet, slightly nutty flavor. About 6-10 inches long. Starchy texture. Storage: Remove greens and refrigerate in plastic bag for up to 3 weeks.",
+        recipes: ["Roasted parsnips", "Parsnip fries", "Parsnip soup", "Glazed parsnips", "Mashed parsnips"],
+        links: [
+            { title: "Parsnip nutrition", url: "https://www.google.com/search?q=parsnip+health+benefits" },
+            { title: "Growing parsnips California", url: "https://www.google.com/search?q=california+parsnip+farming" }
+        ]
+    },
+    {
+        id: 54,
+        name: "Turnip",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["September", "October", "November", "December"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Round or slightly flattened root vegetable with smooth, thin skin in white with purple-red top coloring. Crisp, white interior flesh with slightly peppery flavor. About 2-3 inches in diameter. Storage: Remove greens and refrigerate in plastic bag for up to 2 weeks.",
+        recipes: ["Roasted turnips", "Turnip fries", "Turnip greens", "Mashed turnips", "Turnip soup"],
+        links: [
+            { title: "Turnip nutrition", url: "https://www.google.com/search?q=turnip+health+benefits" },
+            { title: "Growing turnips California", url: "https://www.google.com/search?q=california+turnip+farming" }
+        ]
+    },
+    {
+        id: 55,
+        name: "Bok Choy",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["January", "February", "March", "April", "October", "November", "December"],
+        regions: ["san-francisco", "central-valley"],
+        description: "Asian green vegetable with white or light green stalks and dark green leaves on top. Mild, slightly sweet flavor with tender stalks. About 6-8 inches tall. Tender leaves and crisp stalks. Storage: Refrigerate in plastic bag for up to 5 days.",
+        recipes: ["Stir-fried bok choy", "Bok choy soup", "Steamed bok choy", "Bok choy in garlic sauce", "Asian noodle bowls"],
+        links: [
+            { title: "Bok choy nutrition", url: "https://www.google.com/search?q=bok+choy+health+benefits" },
+            { title: "Cooking bok choy", url: "https://www.google.com/search?q=how+to+cook+bok+choy" }
+        ]
+    },
+    {
+        id: 56,
+        name: "Swiss Chard",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["March", "April", "May", "September", "October", "November", "December"],
+        regions: ["san-francisco", "central-valley"],
+        description: "Leafy green with large, tender leaves and thick, colorful stalks in white, yellow, red, or pink. Mild, slightly earthy flavor. About 8-12 inches tall. Hearty texture. Storage: Wrap in damp paper and refrigerate for up to 5 days.",
+        recipes: ["Sautéed Swiss chard", "Swiss chard soup", "Swiss chard salad", "Braised chard", "Chard and pasta"],
+        links: [
+            { title: "Swiss chard nutrition", url: "https://www.google.com/search?q=swiss+chard+health+benefits" },
+            { title: "Cooking Swiss chard", url: "https://www.google.com/search?q=how+to+cook+swiss+chard" }
+        ]
+    },
+    {
+        id: 57,
+        name: "Collard Greens",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["September", "October", "November", "December", "January", "February"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Large, flat, dark blue-green leaves with thick central vein. Slightly bitter, robust flavor that improves after frost. About 8-12 inches long per leaf. Very hardy, hearty texture. Storage: Refrigerate in plastic bag for up to 1 week.",
+        recipes: ["Collard greens", "Braised collards", "Collard and bean soup", "Collard green salad", "Southern collards"],
+        links: [
+            { title: "Collard greens nutrition", url: "https://www.google.com/search?q=collard+greens+health+benefits" },
+            { title: "Cooking collard greens", url: "https://www.google.com/search?q=how+to+cook+collard+greens" }
+        ]
+    },
+    {
+        id: 58,
+        name: "Mustard Greens",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["January", "February", "March", "April", "October", "November", "December"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Leafy green with frilly, curly or smooth leaves in dark green color. Peppery, slightly spicy flavor. About 6-10 inches long. Tender to hearty texture depending on age. Storage: Refrigerate in plastic bag for up to 5 days.",
+        recipes: ["Sautéed mustard greens", "Mustard green salad", "Braised mustard greens", "Mustard green soup", "Southern style greens"],
+        links: [
+            { title: "Mustard greens nutrition", url: "https://www.google.com/search?q=mustard+greens+health+benefits" },
+            { title: "Cooking mustard greens", url: "https://www.google.com/search?q=how+to+cook+mustard+greens" }
+        ]
+    },
+    {
+        id: 59,
+        name: "Banana",
+        category: "Fruit",
+        image: "https://images.unsplash.com/photo-1587736306696-1e5d40031f96?w=250&h=250&fit=crop",
+        months: ["Year-round"],
+        regions: ["california-wide"],
+        description: "Tropical fruit with long, curved shape and thick yellow skin that ripens to golden. Soft, creamy pale yellow interior flesh. Sweet, mild flavor. About 7-8 inches long. Smooth texture. Storage: Keep at room temperature until ripe, then refrigerate for 3-5 days. Peel darkens but fruit inside stays fresh.",
+        recipes: ["Banana smoothies", "Banana bread", "Bananas foster", "Chocolate banana", "Banana pudding"],
+        links: [
+            { title: "Banana nutrition facts", url: "https://www.google.com/search?q=banana+nutrition+benefits" },
+            { title: "Banana farming", url: "https://www.google.com/search?q=banana+production+california" }
+        ]
+    },
+    {
+        id: 60,
+        name: "Cabbage",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["Year-round", "Peak: September-April"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Large, round head vegetable with tightly packed leaves in green, red, or purple colors. Crisp, crunchy texture. Mild, slightly sweet flavor. Head ranges 3-6 inches in diameter. Storage: Refrigerate in crisper drawer for up to 2 months. Excellent keeper.",
+        recipes: ["Coleslaw", "Cabbage stir-fry", "Braised cabbage", "Cabbage soup", "Sauerkraut"],
+        links: [
+            { title: "Cabbage nutrition", url: "https://www.google.com/search?q=cabbage+health+benefits" },
+            { title: "California cabbage farming", url: "https://www.google.com/search?q=california+cabbage+production" }
+        ]
+    },
+    {
+        id: 61,
+        name: "Eggplant",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["June", "July", "August", "September"],
+        regions: ["central-valley"],
+        description: "Elongated or round summer vegetable with glossy, thin dark purple (or white, striped) skin. Pale green, spongy interior flesh with many small seeds. Mild flavor. About 8-10 inches long. Storage: Refrigerate for up to 5 days. Do not wash until ready to use.",
+        recipes: ["Eggplant parmesan", "Baba ghanoush", "Grilled eggplant", "Eggplant stir-fry", "Ratatouille"],
+        links: [
+            { title: "Eggplant nutrition", url: "https://www.google.com/search?q=eggplant+health+benefits" },
+            { title: "Cooking eggplant", url: "https://www.google.com/search?q=how+to+cook+eggplant" }
+        ]
+    },
+    {
+        id: 62,
+        name: "Sugar Snap Peas",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["February", "March", "April", "May"],
+        regions: ["san-francisco", "central-valley"],
+        description: "Tender green pods with rounded shape and entire pod is edible. Crisp, crunchy texture with sweet, tender peas inside. About 3-4 inches long. Juicy, fresh flavor. Storage: Refrigerate in plastic bag for up to 5 days.",
+        recipes: ["Raw sugar snaps", "Stir-fried snap peas", "Snap pea salad", "Snap peas with dip", "Snap pea soup"],
+        links: [
+            { title: "Sugar snap pea nutrition", url: "https://www.google.com/search?q=sugar+snap+peas+health+benefits" },
+            { title: "Growing snap peas California", url: "https://www.google.com/search?q=california+snap+pea+farming" }
+        ]
+    },
+    {
+        id: 63,
+        name: "Pistachios",
+        category: "Nut",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["August", "September", "October"],
+        regions: ["central-valley"],
+        description: "Tree nuts with hard, tan shell naturally splitting to reveal pair of pale green or reddish kernels inside. Crunchy texture with slightly sweet, buttery flavor. About the size of a pea. California produces 99% of U.S. pistachios. Storage: Keep in cool, dry place or refrigerate for up to 2 years. Can be roasted and salted.",
+        recipes: ["Roasted pistachios", "Pistachio butter", "Pistachio ice cream", "Salted pistachios", "Pistachio crusted fish"],
+        links: [
+            { title: "Pistachio nutrition", url: "https://www.google.com/search?q=pistachio+health+benefits" },
+            { title: "California pistachio farming", url: "https://www.google.com/search?q=california+pistachio+production" }
+        ]
+    },
+    {
+        id: 64,
+        name: "Mushrooms",
+        category: "Vegetable",
+        image: "https://images.unsplash.com/photo-1599599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
+        months: ["Year-round"],
+        regions: ["central-valley", "san-francisco"],
+        description: "Fungal fruiting bodies with white, brown, or specialty varieties (cremini, shiitake, oyster). Rounded or umbrella-shaped caps with gills underneath. Earthy, savory flavor. About 1-3 inches diameter depending on variety. Storage: Keep in paper bag (not plastic) in refrigerator for up to 1 week.",
+        recipes: ["Sautéed mushrooms", "Mushroom soup", "Mushroom risotto", "Grilled portobello", "Mushroom pasta"],
+        links: [
+            { title: "Mushroom nutrition", url: "https://www.google.com/search?q=mushroom+health+benefits" },
+            { title: "California mushroom farming", url: "https://www.google.com/search?q=california+mushroom+production" }
         ]
     }
 ];
