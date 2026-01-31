@@ -477,7 +477,7 @@ const produceData = [
     },
     {
         id: 37,
-        name: "Kiwi Fruit",
+        name: "Kiwi",
         category: "Fruit",
         image: "https://images.unsplash.com/photo-1585599810694-b5ac4dd37e83?w=250&h=250&fit=crop",
         months: ["August", "September", "October", "November", "December"],
